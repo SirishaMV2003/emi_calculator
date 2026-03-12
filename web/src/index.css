@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Space Grotesk', 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #eaf3ff;
+  background: radial-gradient(circle at 10% 20%, #1f375a 0, transparent 25%),
+    radial-gradient(circle at 80% 0, #0f766e 0, transparent 20%),
+    #0a0f19;
+  min-height: 100vh;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}

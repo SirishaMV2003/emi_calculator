@@ -1,0 +1,9 @@
+node_modules
+.dist
+/dist
+coverage
+tmp
+*.log
+.env
+web/node_modules
+web/dist
